@@ -30,7 +30,7 @@ print('Ok great, so you plan to spend ' + str(float(coding_time)) + "% of the ti
 print("%.0f%%" % (float(coding_time)))
 
 #correct decimal format!!!!VVVV
-print(float(coding_time)/100)
+codespent = (float(coding_time)/100)
+print(codespent * total_minutes)
 
 print(float(total_minutes))
-print(float(total_minutes / "%.0f%%" % (float(coding_time))))
