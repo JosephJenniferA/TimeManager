@@ -20,6 +20,14 @@ print('what percentage of time should be spent actually coding?')
 coding_time = input()  # read a single line and store it in the variable "coding_time"
 
 print('Ok great, so you plan to spend ' + str(float(coding_time)) + "% of the time coding. That's great " + name + '!')
-#
-print("the means you will spend" str(float(daily) * 60) ")
+
+#determine the percent of time spent coding
+
+a_number = float(coding_time)*100
+percentage = "{:.0%}".format(a_number)
+print(percentage)
+
+a_number = int(coding_time)/100
+print(float(daily) * 60)*str.format(float(coding_time))
+print((float(coding_time))/(float(daily) * 60))
 print(float(coding_time))
