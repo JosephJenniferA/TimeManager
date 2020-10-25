@@ -1,0 +1,7 @@
+distance = input("How far did you travel (in miles)? ")
+time = input("How long did it take you to reach your destination (in hours)? ")
+where = input("Where were you going? ")
+
+speed = round(float(distance) / float(time), 2)
+
+print("On your journey to %s, you drove at an average speed of %s miles per hour." % (where, speed))
